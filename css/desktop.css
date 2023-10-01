@@ -112,10 +112,24 @@
     }
     .team .list {
         display: flex;
+        align-items: center;
         gap: 24px;
     }
     .team-item {
         flex-basis: calc((100% - 72px) / 4);
     }
-    
+        /* Customers */
+    .customers {
+        padding: 120px 0;
+    }
+    .customers .list {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    .customer-item {
+        width: calc((100% - 120px) / 6);
+        height: 88px;
+    }
 }

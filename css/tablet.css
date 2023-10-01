@@ -63,4 +63,19 @@
     .team-item {
         flex-basis: calc((100% - 16px) / 1);
     }
+        /* Customers */
+    .customers {
+        padding: 96px 0;
+    }
+    .customers .list {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .customer-item {
+        width: calc((100% - 24px) / 1);
+        max-width: 168px;
+    }
 }
