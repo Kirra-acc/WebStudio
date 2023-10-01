@@ -2,6 +2,22 @@
     .container {
         max-width: 768px;
         }
+    /* Header */
+    .nav-menu {
+        display: flex;
+        gap: 40px;
+    }
+    .header-menu-btn {
+        display: none;
+    }
+
+
+    .contact .list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    /* Hero */
     .hero {
         padding: 112px 0;
          }
