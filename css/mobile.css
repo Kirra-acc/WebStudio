@@ -190,16 +190,6 @@
     line-height: 1.2;
     color: var(--herobck-color);
 } */
-/* .benefits-subtitle {
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    line-height: 1.11;
-    color: var(--herobck-color);
-
-    margin-bottom: 8px;
-} */
 .benefits .list {
     display: flex;
     flex-wrap: wrap;
@@ -225,6 +215,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+/* Product */
+.product {
+    display: none;
 }
 
 @media screen and (min-width: 428px) {

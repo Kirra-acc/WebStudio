@@ -55,4 +55,8 @@
     .benefits-subtitle {
         text-align: start;
     }
+    /* Product */
+    .product {
+        display: none;
+    }
 }

@@ -71,4 +71,37 @@
     .benefits-text {
         font-weight: 400;
     }
+    /* Product */
+    .product {
+        display: block;
+        padding-bottom: 120px;
+    }
+    
+    .product-title {
+        margin-bottom: 72px;
+    
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--dark-color);
+        line-height: 1.11;
+        text-transform: capitalize;
+    }
+    
+    .product .list {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .product-item {
+        width: calc((100% - 3 * 16px) / 3);
+    }
+    
+    .product-img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        background-color: var(--accent-color);
+    }
 }
