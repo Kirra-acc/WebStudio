@@ -54,6 +54,7 @@
         align-self: center;
         align-items: center;
         gap: 24px;
+        height: 112px;
     
         border-radius: 4px;
         flex-shrink: 0;
@@ -99,10 +100,10 @@
     }
     
     .product-img {
-        display: block;
+        /* display: block;
         width: 100%;
         max-width: 100%;
-        background-color: var(--accent-color);
+        background-color: var(--accent-color); */
     }
     /* Team */
     .team {
@@ -131,5 +132,17 @@
     .customer-item {
         width: calc((100% - 120px) / 6);
         height: 88px;
+    }
+    /* Footer */
+    .footer {
+        padding: 100px 0;
+    }
+    .footer-wrapper {
+        display: flex;
+        align-items: baseline;
+        padding-left: 0;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 0;
     }
 }
