@@ -1,0 +1,21 @@
+@media screen and (min-width: 1440px) {
+    .container {
+            max-width: 1440px;
+        }
+    .hero {
+        padding: 188px 0;
+    }
+    .hero-title {
+        max-width: 496px;
+        margin: 0 auto 48px;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+    .benefits {
+        padding: 120px 0;
+    }
+    .benefits-title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
