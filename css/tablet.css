@@ -59,4 +59,8 @@
     .product {
         display: none;
     }
+    /* Team */
+    .team-item {
+        flex-basis: calc((100% - 16px) / 1);
+    }
 }

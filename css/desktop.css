@@ -104,4 +104,18 @@
         max-width: 100%;
         background-color: var(--accent-color);
     }
+    /* Team */
+    .team {
+        padding: 120px 0;
+    
+        background-color: var(--light-color);
+    }
+    .team .list {
+        display: flex;
+        gap: 24px;
+    }
+    .team-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+    
 }
