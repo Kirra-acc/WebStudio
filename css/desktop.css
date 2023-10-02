@@ -145,4 +145,38 @@
         flex-direction: row;
         gap: 0;
     }
+    .footer-logo-wrapper {
+        margin-right: 120px;
+    }
+    .footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+    
+        font-family: "Raleway", sans-serif;
+        color: var(--primary-color);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .footer-text {
+        max-width: 264px;
+    }
+    .footer-social {
+        margin-right: 80px;
+    }
+
+    /* Subscribe */
+    .subscribe-form-wrapper {
+        max-width: 465px;
+    }
+    .footer-subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+    .subscribe-input {
+        width: 264px;
+    }
 }

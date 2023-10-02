@@ -93,4 +93,33 @@
         row-gap: 72px;
         padding-left: 108px;
     }
+    .footer-logo-wrapper {
+        margin: 0;
+    }
+    .footer-text {
+        max-width: 264px;
+    }
+    .footer-social {
+        margin-right: 80px;
+    }
+    .footer-social-text {
+        margin: 0;
+        margin-right: auto;
+        margin-bottom: 22px;
+    }
+    /* Subscribe */
+    .subscribe-form-title {
+        margin-right: auto;
+    }
+    .footer-subscribe-form {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    .subscribe-input {
+        width: 264px;
+    }
+    .subscribe-btn {
+        margin: 0;
+    }
 }
