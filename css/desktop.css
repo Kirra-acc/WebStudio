@@ -161,6 +161,9 @@
         text-transform: uppercase;
         text-decoration: none;
     }
+    .footer-social-text {
+        align-items: baseline;
+    }
     .footer-text {
         max-width: 264px;
     }

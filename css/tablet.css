@@ -96,6 +96,9 @@
     .footer-logo-wrapper {
         margin: 0;
     }
+    .footer-logo {
+        margin-right: auto;
+    }
     .footer-text {
         max-width: 264px;
     }
@@ -103,12 +106,16 @@
         margin-right: 80px;
     }
     .footer-social-text {
+        align-items: baseline;
+        justify-content: start;
+
         margin: 0;
         margin-right: auto;
         margin-bottom: 22px;
     }
     /* Subscribe */
     .subscribe-form-title {
+        text-align: left;
         margin-right: auto;
     }
     .footer-subscribe-form {
