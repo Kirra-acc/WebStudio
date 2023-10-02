@@ -131,7 +131,11 @@
     margin: 0 auto;
     padding: 112px 0;
     max-width: 100%;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office_mob.jpg);
+    background-size: cover;
+    background-position: center;
+
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,6 +144,11 @@
     font-family: var(--font-main);
     background-color: var(--dark-color);
     text-align: center;
+}
+@media screen and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office_mob@2x.jpg);
+    }
 }
 .hero-title {
     max-width: 320px;
@@ -477,7 +486,7 @@
 }
 .subscribe-form-title {
     text-align: center;
-    
+
     margin-bottom: 16px;
     font-family: Roboto;
     font-size: 16px;
