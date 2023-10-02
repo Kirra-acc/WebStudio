@@ -469,20 +469,32 @@
 .mobile-contacts-item:not(:last-child) {
     margin-bottom: 40px;
 }
+
 .mobile-contacts-link {
     color: var(--text-color);
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.mobile-contacts-link .accent {
+.mobile-contacts-link.accent {
     color: var(--primary-color);
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 .mobile-socials {
     display: flex;
     align-items: center;
     gap: 56px;
+}
+@media screen and (max-width: 427.99px) {
+  .mobile-socials {
+    gap: 0;
+    justify-content: space-between;  
+}
 }
 .mobile-socials-link {
     width: 40px;
