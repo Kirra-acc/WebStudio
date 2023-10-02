@@ -1,6 +1,7 @@
 @media screen and (min-width: 1158px) {
     .container {
             max-width: 1158px;
+            padding: 0 15px;
         }
     /* Header */
     .nav-menu {
@@ -57,16 +58,10 @@
     .benefits-svg {
         display: flex;
         justify-content: center;
-        align-self: center;
         align-items: center;
-        gap: 24px;
         height: 112px;
     
         border-radius: 4px;
-        flex-shrink: 0;
-    
-        width: 264px;
-        /* width: 100% */
         background-color: var(--light-color);
         margin-bottom: 8px;
     }
