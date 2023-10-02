@@ -138,4 +138,28 @@
     .subscribe-btn {
         margin: 0;
     }
+    /* Portfolio */
+    .main-front {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .interactive-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+    .interactive-btn {
+        padding: 12px 24px;
+    }
+    .media-list {
+        justify-content: start;
+    
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .media-item {
+        width: calc((100% - 16px) / 2);
+    }
 }

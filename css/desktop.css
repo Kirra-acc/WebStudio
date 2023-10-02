@@ -187,4 +187,23 @@
         width: 264px;
         opacity: 1;
     }
+
+    /* Portfolio */
+    .main-front {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .interactive-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+    .interactive-btn {
+        padding: 12px 24px;
+    }
+    .media-item {
+        width: calc((100% - 3 * 16px) / 3);
+    }
 }
