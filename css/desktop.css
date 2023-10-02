@@ -187,5 +187,6 @@
     }
     .subscribe-input {
         width: 264px;
+        opacity: 1;
     }
 }
