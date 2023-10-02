@@ -138,14 +138,13 @@
 
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 
     font-family: var(--font-main);
     background-color: var(--dark-color);
     text-align: center;
 }
-@media screen and (min-resolution: 192dpi) {
+@media screen and (min-width: 767.98px) and (max-width: 767.98px) and (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office_mob@2x.jpg);
     }
