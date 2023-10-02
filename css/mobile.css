@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 0 15px;
 
-    outline: solid red;
+    outline: 1px solid transparent;
 }
 /* Header */
 .header {
@@ -628,9 +628,11 @@
     position: relative;
     overflow: hidden;
 }
-/* .media-img {
+.media-img {
     display: block;
-} */
+    max-width: 100%;
+    height: auto;
+} 
 .media-container-text {
     position: absolute;
     display: flex;

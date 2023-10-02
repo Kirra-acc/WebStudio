@@ -160,6 +160,6 @@
         row-gap: 72px;
     }
     .media-item {
-        width: calc((100% - 16px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 }
