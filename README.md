@@ -42,5 +42,6 @@ WebStudio leverages cutting-edge technologies to deliver a powerful and user-fri
 
 4. **Start the development server:**
 
-  ```bash
-  npm start
+   ```bash
+   npm start
+
